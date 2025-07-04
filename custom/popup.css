@@ -1,0 +1,52 @@
+
+#marshmallow-popup {
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff0f6;
+  border: 2px solid #f8c1d8;
+  border-radius: 15px;
+  padding: 25px 30px;
+  width: 320px;
+  box-shadow: 0 8px 16px rgba(248,193,216,0.6);
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+  color: #9c4778;
+  z-index: 9999;
+}
+#marshmallow-popup p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+#marshmallow-popup a {
+  display: inline-block;
+  background: #f8c1d8;
+  color: #662244;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(248,193,216,0.8);
+  transition: background-color 0.3s ease;
+}
+#marshmallow-popup a:hover {
+  background: #f48fb1;
+  color: #fff;
+}
+#popup-close {
+  margin-top: 20px;
+  background: #f48fb1;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(244,143,177,0.7);
+  transition: background-color 0.3s ease;
+}
+#popup-close:hover {
+  background: #d46a8c;
+}
